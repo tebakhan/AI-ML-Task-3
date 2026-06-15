@@ -1,17 +1,29 @@
-Risk Score Calculator
-Description
+# Risk Score Calculator
 
-This project calculates a risk score based on monitoring events. Different events contribute to the overall risk score according to their severity. The final score helps identify the level of risk.
+## Overview
+This project calculates a risk score based on monitoring events. The system analyzes event data and assigns a risk level according to the severity and frequency of detected events.
 
-Objective
+## Objective
+The goal of this project is to evaluate monitoring events and generate a risk score that helps identify potential threats or abnormal activities.
 
-To analyze monitoring events and generate a risk score that can be used to detect potential threats or unusual activities.
+## Features
+- Event analysis
+- Risk score calculation
+- Severity-based scoring
+- Risk level classification (Low, Medium, High)
+- Error handling for invalid event data
 
-Features
-Processes monitoring events
-Calculates overall risk score
-Classifies risk as Low, Medium, or High
-Simple and easy to understand
-Usage
+## How It Works
+1. Receives monitoring event data.
+2. Analyzes event severity and occurrence.
+3. Calculates a numerical risk score.
+4. Classifies the risk level.
+5. Returns the final risk assessment.
 
-Run the program and provide monitoring events as input. The system will calculate and display the corresponding risk score and risk level.
+## Tech Stack
+- Python
+
+## Deliverables
+- Risk Score Calculator utility
+- Documentation
+- Test cases
